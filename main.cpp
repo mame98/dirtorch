@@ -1,5 +1,5 @@
 #include <iostream>
-#include "cmake-build-debug/src/data/DirectoryEntity.h"
+#include "DirectoryEntity.h"
 
 int main() {
     Layer topLevel;

@@ -12,4 +12,5 @@ FetchContent_MakeAvailable(external_termbox)
 
 
 add_executable(dirtorch main.cpp src/data/Layer.cpp src/data/Layer.h src/data/Entity.cpp src/data/Entity.h src/data/FileEntity.cpp src/data/FileEntity.h src/data/DirectoryEntity.cpp src/data/DirectoryEntity.h)
+target_include_directories(dirtorch PRIVATE src/data)
 target_link_libraries(dirtorch PRIVATE termbox)
